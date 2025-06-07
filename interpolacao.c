@@ -31,7 +31,7 @@ int main(){
 
     double result = lagrange(second, vet_seconds, vet_meters, vet_size);
 
-    printf("Pelo metodo de lagrange for obtido %lf \n", result);
+    printf("Pelo metodo de lagrange para o ponto %lf foi obtido %lf \n",second, result);
 
     return 0;
 }
